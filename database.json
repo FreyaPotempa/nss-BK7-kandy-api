@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Wilma Nikolaus",
+      "email": "wilma@nikolaus.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Ayden Baumbach",
+      "email": "ayden@baumbach.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "fullName": "Allan Dare",
+      "email": "allan@dare.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Tita Stiedemann",
+      "email": "tita@stiedmann.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "fullName": "Reinhold Ortiz",
+      "email": "reinhold@ortiz.com",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "fullName": "Odessa Harris",
+      "email": "odessa@harris.com",
+      "isStaff": true
+    },
+    {
+      "email": "googly@moogly.com",
+      "fullName": "Googly Moogly",
+      "isStaff": true,
+      "id": 7
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "loyaltyNumber": 90492,
+      "userId": 5
+    },
+    {
+      "id": 2,
+      "loyaltyNumber": 99890,
+      "userId": 3
+    },
+    {
+      "id": 3,
+      "loyaltyNumber": 90950,
+      "userId": 1
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "02/11/2015",
+      "payRate": 15,
+      "locationId": 1,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "startDate": "05/15/2005",
+      "payRate": 25,
+      "locationId": 2,
+      "userId": 4
+    },
+    {
+      "id": 3,
+      "startDate": "10/11/2017",
+      "payRate": 18,
+      "locationId": 2,
+      "userId": 6
+    },
+    {
+      "startDate": "2023-02-08",
+      "payRate": "57.99",
+      "locationId": 1,
+      "userId": 7,
+      "id": 5
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Sugar Rush",
+      "address": "2447 Heathcote Bridge",
+      "sqFootage": 3000
+    },
+    {
+      "id": 2,
+      "name": "Sweetleaf",
+      "address": "502 Fritsch Extensions",
+      "sqFootage": 500
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Chocolate Bar",
+      "price": 2.5,
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Gummy Bears",
+      "price": 3,
+      "productTypeId": 2
+    },
+    {
+      "id": 3,
+      "name": "Jawbreaker",
+      "price": 1,
+      "productTypeId": 3
+    },
+    {
+      "id": 4,
+      "name": "Sour Patch Kids",
+      "price": 2.5,
+      "productTypeId": 2
+    },
+    {
+      "id": 5,
+      "name": "Creme Egg",
+      "price": 1.5,
+      "productTypeId": 1
+    },
+    {
+      "name": "Gumballs",
+      "price": ".75",
+      "productTypeId": 2,
+      "id": 6
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "category": "Chocolates"
+    },
+    {
+      "id": 2,
+      "category": "Gummies"
+    },
+    {
+      "id": 3,
+      "category": "Hard Candies"
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "productId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "productId": 3,
+      "locationId": 1
+    },
+    {
+      "id": 5,
+      "productId": 4,
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "productId": 4,
+      "locationId": 1
+    },
+    {
+      "id": 7,
+      "productId": 5,
+      "locationId": 2
+    },
+    {
+      "id": 8,
+      "productId": 6,
+      "locationId": 1
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 3,
+      "productId": 1,
+      "amount": 1
+    }
+  ]
+}
