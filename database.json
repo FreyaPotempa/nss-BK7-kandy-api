@@ -34,7 +34,7 @@
       "id": 6,
       "fullName": "Odessa Harris",
       "email": "odessa@harris.com",
-      "isStaff": true
+      "isStaff": false
     },
     {
       "email": "googly@moogly.com",
@@ -46,17 +46,17 @@
   "customers": [
     {
       "id": 1,
-      "loyaltyNumber": 90492,
+      "loyaltyNumber": 90435,
       "userId": 5
     },
     {
+      "loyaltyNumber": 10880,
       "id": 2,
-      "loyaltyNumber": 99890,
       "userId": 3
     },
     {
       "id": 3,
-      "loyaltyNumber": 90950,
+      "loyaltyNumber": 91960,
       "userId": 1
     }
   ],
@@ -70,24 +70,17 @@
     },
     {
       "id": 2,
-      "startDate": "05/15/2005",
-      "payRate": 25,
-      "locationId": 2,
+      "startDate": "02/11/2015",
+      "payRate": 15,
+      "locationId": 1,
       "userId": 4
     },
     {
       "id": 3,
-      "startDate": "10/11/2017",
-      "payRate": 18,
-      "locationId": 2,
-      "userId": 6
-    },
-    {
-      "startDate": "2023-02-08",
-      "payRate": "57.99",
+      "startDate": "02/11/2015",
+      "payRate": 15,
       "locationId": 1,
-      "userId": 7,
-      "id": 5
+      "userId": 7
     }
   ],
   "locations": [
@@ -140,6 +133,36 @@
       "price": ".75",
       "productTypeId": 2,
       "id": 6
+    },
+    {
+      "name": "lollipop",
+      "price": "2",
+      "productTypeId": 3,
+      "id": 7
+    },
+    {
+      "name": "Peach 'Os",
+      "price": "3",
+      "productTypeId": 2,
+      "id": 8
+    },
+    {
+      "name": "Fruit by The Foot",
+      "price": 1,
+      "productTypeId": 2,
+      "id": 9
+    },
+    {
+      "name": "Fudge",
+      "price": 8,
+      "productTypeId": 1,
+      "id": 10
+    },
+    {
+      "name": "Candy Cigarettes",
+      "price": 7,
+      "productTypeId": 3,
+      "id": 13
     }
   ],
   "productTypes": [
@@ -196,6 +219,16 @@
       "id": 8,
       "productId": 6,
       "locationId": 1
+    },
+    {
+      "productId": 13,
+      "locationId": 1,
+      "id": 9
+    },
+    {
+      "productId": 13,
+      "locationId": 2,
+      "id": 10
     }
   ],
   "purchases": [
@@ -204,6 +237,24 @@
       "customerId": 3,
       "productId": 1,
       "amount": 1
+    },
+    {
+      "customerId": 1,
+      "productId": 2,
+      "amount": 1,
+      "id": 2
+    },
+    {
+      "customerId": 1,
+      "productId": 5,
+      "amount": 1,
+      "id": 3
+    },
+    {
+      "customerId": 1,
+      "productId": 1,
+      "amount": 1,
+      "id": 4
     }
   ]
 }
